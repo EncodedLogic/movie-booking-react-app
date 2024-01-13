@@ -1,0 +1,50 @@
+/* src/components/ShowList.css */
+
+.show-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 108px;
+}
+
+.show-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.show-item img {
+  width: 100%;
+  height: auto;
+}
+
+.show-details {
+  padding: 10px;
+  text-align: center;
+}
+
+.show-details strong {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.show-details button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* button {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c0392b;
+} */
